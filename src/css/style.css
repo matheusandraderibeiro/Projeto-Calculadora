@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+.calculadora {
+    width: 252px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 63);
+}
+
+.conteudo-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.tela {
+    width: 245px;
+    height: 55px;
+    text-align: right;
+    margin: 3px;
+    padding-right: 8px;
+    font-size: 25px;
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(63, 63, 63);
+    color:rgb(214, 214, 214)
+}
+
+.btnIniciais, .btnPadrao, .btnIgual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    width: 59px;
+    height: 59px;
+    margin: 1px;
+    color: white;
+    background-color: rgb(109, 109, 109);
+}
+    .btnPadrao:hover {
+        background-color: rgb(71, 71, 71);
+    }
+
+.btnIniciais {
+    background-color: rgb(39, 36, 36);
+}
+    .btnIniciais:hover {
+        background-color: rgb(19, 17, 17);;
+    }
+
+.btnSinal {
+    background-color: orange;
+}
+    .btnSinal:hover {
+        background-color: rgb(211, 137, 0);
+    }
+
+.btnZero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 59px;
+    margin: 1px;
+    color: white;
+    background-color: rgb(109, 109, 109);
+}
+    .btnZero:hover {
+        background-color: rgb(71, 71, 71);
+    }
